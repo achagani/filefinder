@@ -1,0 +1,4 @@
+Name: Find File
+Description: Find And Open A File
+Binding: fileSearch
+Interactive: true
