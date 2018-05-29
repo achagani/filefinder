@@ -46,7 +46,7 @@ fileSearch <- function() {
   }
 
 
-  viewer <- dialogViewer("Search File")
+  viewer <- dialogViewer("Search File", width = 800)
   runGadget(ui, server, viewer = viewer)
 
 }
