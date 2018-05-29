@@ -1,13 +1,11 @@
-library(shiny)
-library(miniUI)
-
-
 #' Find Files In Project
 #'
 #' use grep to find and open files
 #'
 #' @export
 fileSearch <- function() {
+  library(shiny)
+  library(miniUI)
 
   ui <- miniPage(
     gadgetTitleBar("File Finder"),
