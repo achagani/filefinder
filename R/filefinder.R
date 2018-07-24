@@ -35,8 +35,8 @@ fileSearch <- function() {
           actionButton(inputId = f, label = f)
         })
 
-        print(fileWidgets)
-        print(class(fileWidgets))
+        #print(fileWidgets)
+        #print(class(fileWidgets))
         tagList(fileWidgets)
       } else {
         "Please Enter A Search"
